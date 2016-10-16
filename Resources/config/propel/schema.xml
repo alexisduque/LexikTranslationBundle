@@ -22,10 +22,6 @@
         <column name="domain" type="varchar" size="255" required="true" default="messages" />
         <column name="key_name" phpName="Key" type="varchar" size="255" required="true" />
 
-        <unique>
-            <unique-column name="key_name" />
-            <unique-column name="domain" />
-        </unique>
     </table>
 
     <table name="lexik_trans_unit_translations" phpName="Translation" namespace="Lexik\Bundle\TranslationBundle\Propel">

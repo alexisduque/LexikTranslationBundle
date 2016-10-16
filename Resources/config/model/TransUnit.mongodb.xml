@@ -8,7 +8,7 @@
 
         <indexes>
             <index>
-                <option name="unique" value="true" />
+                <option name="unique" value="false" />
                 <option name="safe" value="true" />
                 <key name="key" order="asc" />
                 <key name="domain" order="asc" />
