@@ -6,7 +6,7 @@
 
     <mapped-superclass name="Lexik\Bundle\TranslationBundle\Model\TransUnit">
 
-        <field name="key" column="key_name" type="string" length="255" />
+        <field name="key" column="key_name" type="string" length="2000" />
 
         <field name="domain" column="domain" type="string" length="255" />
 
