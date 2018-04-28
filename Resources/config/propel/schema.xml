@@ -33,11 +33,6 @@
         <column name="locale" type="varchar" size="10" required="true" />
         <column name="content" type="longvarchar" />
 
-        <unique>
-            <unique-column name="trans_unit_id" />
-            <unique-column name="locale" />
-        </unique>
-
         <foreign-key foreignTable="lexik_translation_file" onDelete="cascade">
             <reference local="file_id" foreign="id" />
         </foreign-key>

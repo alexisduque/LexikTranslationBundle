@@ -8,10 +8,6 @@
             table="lexik_trans_unit_translations"
             repository-class="Lexik\Bundle\TranslationBundle\Entity\TranslationRepository">
 
-        <unique-constraints>
-            <unique-constraint name="trans_unit_locale_idx" columns="trans_unit_id,locale" />
-        </unique-constraints>
-
         <lifecycle-callbacks>
             <lifecycle-callback type="prePersist" method="prePersist" />
             <lifecycle-callback type="preUpdate" method="preUpdate" />
